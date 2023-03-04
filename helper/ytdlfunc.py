@@ -5,7 +5,7 @@ from pyrogram.types.bots_and_keyboards.inline_keyboard_markup import InlineKeybo
 from pyrogram.types.input_media.input_media_document import InputMediaDocument
 from pyrogram.types.input_media.input_media_audio import InputMediaAudio
 from pyrogram.types.input_media.input_media_video import InputMediaVideo
-import youtube_dl
+import yt_dlp
 from utils.util import humanbytes
 import asyncio
 
